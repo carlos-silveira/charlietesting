@@ -16,36 +16,34 @@
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="panel panel-default">
             <div class="panel-heading"><strong><a name="calcula">Calcula tu Finiquito</a></strong></div>
-            <form action="">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>Salario Mensual: </td>
-                            <td><input required="" name="salario" type="" class="form-control" id="salario"></td>
-                        </tr>
-                        <tr>
-                            <td>Años laborando: </td>
-                            <td><input type="number" class="form-control" name="year" min="0" max="30"></td>
-                        </tr>
-                        <tr>
-                            <td>Días de Vacaciones:</td>
-                            <td><input type="number" name="vacaciones" class="form-control" id="vacaciones"></td>
-                        </tr>
-                        <tr>
-                            <td>Meses laborando durante este año:</td>
-                            <td><input type="number" class="form-control" name="mes_da" min="1" max="11"></td>
-                        </tr>
-                        <tr>
-                            <td>Meses transcurridos a partir del mes de ingreso al mes de renuncia:</td>
-                            <td><input type="number" class="form-control" name="mes_iyr" min="1" max="11"></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><button class="btn btn-default enlace " role="link" onclick="myFunction()">Calcular</button></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </form>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Salario Mensual: </td>
+                        <td><input required="" name="salario" type="" class="form-control" id="salario"></td>
+                    </tr>
+                    <tr>
+                        <td>Años laborando: </td>
+                        <td><input type="number" class="form-control" name="year" min="0" max="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Días de Vacaciones:</td>
+                        <td><input type="number" name="vacaciones" class="form-control" id="vacaciones"></td>
+                    </tr>
+                    <tr>
+                        <td>Meses laborando durante este año:</td>
+                        <td><input type="number" class="form-control" name="mes_da" min="1" max="11"></td>
+                    </tr>
+                    <tr>
+                        <td>Meses transcurridos a partir del mes de ingreso al mes de renuncia:</td>
+                        <td><input type="number" class="form-control" name="mes_iyr" min="1" max="11"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-default enlace " role="link" onclick="myFunction()">Calcular</button></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
