@@ -40,13 +40,14 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-default enlace " role="link" onclick="myFunction()">Calcular</button></td>
+
                     </tr>
                 </tbody>
             </table>
+
         </div>
     </div>
-
+    <td><button class="btn btn-default enlace " role="link" onclick="myFunction()">Calcular</button></td>
 
     <div id="myDIV" style="display:none">
         <H1>Tu finiquito es: $72,000.00 MXN!</H1>
