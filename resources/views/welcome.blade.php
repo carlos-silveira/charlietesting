@@ -16,7 +16,7 @@
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="panel panel-default">
             <div class="panel-heading"><strong><a name="calcula">Calcula tu Finiquito</a></strong></div>
-            <form action="" method="POST">
+            <form action="">
                 <table class="table">
                     <tbody>
                         <tr>
